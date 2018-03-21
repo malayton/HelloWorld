@@ -1,5 +1,8 @@
 // A simple class to test out EGit
 public class HelloWorld {
+	// Define what will be printed to the screen when it runs
+	final static String WHAT_TO_PRINT = "Hello World!  I have made some changes..." ;
+
 	// The main routine
 	public static void main(String[] args) {
 		// Construct an instance of the class
@@ -9,7 +12,7 @@ public class HelloWorld {
 	}
 	
 	private void doIt() {
-		// Just print something to show that it works
-		System.out.println("Hello World!");
+		// Print the defined string to show that it works
+		System.out.println(WHAT_TO_PRINT);
 	}
 }
